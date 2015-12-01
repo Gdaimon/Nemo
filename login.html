@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <title>Login</title>
+
+</head>
+<body>
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="login.html">Ingresar</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Registrarse</a></li>
+
+</ul>
+<nav>
+    <div class="nav-wrapper deep-orange">
+        <a href="inicio.html" class="brand-logo "><img class="responsive-img" style="max-width: 40%; height: auto;"
+                                                       src="img/nemo-logo.png"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><img class="responsive-img circle"
+                                                                                     src="img/user-pq.png"><i
+                    class="material-icons right">arrow_drop_down</i></a>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="col s12 m2 l2"><p></p></div>
+        <div class="col s12 m2 l10">
+            <div class="container mdi-border z-depth-1 hoverable">
+
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row"></div>
+                        <div class="row"></div>
+                        <div class="row"></div>
+                        <div class="col s12 m2 l1"><p></p></div>
+                        <div class="row">
+                            <div class="input-field col s12 m8">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="usuario" type="text" class="validate">
+                                <label for="usuario">Usuario</label>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col s12 m2 l1"><p></p></div>
+                            <div class="input-field col s12 m8">
+                                <i class="material-icons prefix">lock_open</i>
+                                <input id="password" type="password" class="validate">
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 offset-m8">
+                                <a class="waves-effect waves-light btn green mdi-action-exit-to-app"
+                                   href="perfil.html">Ingresar</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="row"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row"></div>
+<div class="row"></div>
+
+<footer class="page-footer deep-orange">
+    <div class="footer-copyright z-depth-1">
+        <div class="container center">
+            © 2014 Copyright Politecnico GranColombiano
+        </div>
+    </div>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+</body>
+</html>
